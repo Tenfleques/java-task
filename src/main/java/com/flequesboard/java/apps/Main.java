@@ -9,7 +9,7 @@ public class Main {
         List<Integer> ls = Arrays.asList(new Integer[] {1,2,3,4,5,6,7,8,9,9});
         SplitFind x = new SplitFind(ls);
         System.out.println(x.getMissingNum());
-        FileStreamForEveryNthWord y = new FileStreamForEveryNthWord("/home/blackjack/dev/java/nightly/src/main/resources/input.txt");
+        FileStreamForEveryNthWord y = new FileStreamForEveryNthWord("resources/input.txt");
 
     }
 }
